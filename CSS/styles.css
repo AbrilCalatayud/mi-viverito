@@ -9,13 +9,24 @@ body {
     color: darkgreen;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+header, footer, h2 {
+    font-family: "Boogaloo", sans-serif;
+}
+
 header {
     background-color: darkgreen;
     color: burlywood;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: "Boogaloo", sans-serif;
 }
 
 nav {
@@ -33,15 +44,12 @@ li {
 
 a {
     color: burlywood;
-    font-size: 25px;
+    font-size: 27px;
+    text-decoration: none;
 }
 
 .logo {
     padding: 20px;
     display: flex;
     align-items: center;
-}
-
-.textoLogo {
-    font-size: 50px;
 }
