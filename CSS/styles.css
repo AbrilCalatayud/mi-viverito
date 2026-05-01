@@ -1,4 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+
+}
+
+.nombrePagina{
+    font-family: "Boogaloo", sans-serif;
+    font-size: 50px;
 }
