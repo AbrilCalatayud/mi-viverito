@@ -4,7 +4,34 @@
 
 }
 
-.nombrePagina{
+header {
+    background-color: limegreen;
+    color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-family: "Boogaloo", sans-serif;
+}
+
+nav {
+    padding: 0px 40px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 5px;
+}
+
+a {
+    color: lightblue;
+    font-size: 25px;
+}
+
+.nombrePagina {
+    padding: 20px 40px;
     font-size: 50px;
 }
