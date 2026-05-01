@@ -4,9 +4,14 @@
 
 }
 
+body {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
 header {
-    background-color: limegreen;
-    color: lightblue;
+    background-color: darkgreen;
+    color: burlywood;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,11 +32,16 @@ li {
 }
 
 a {
-    color: lightblue;
+    color: burlywood;
     font-size: 25px;
 }
 
-.nombrePagina {
-    padding: 20px 40px;
+.logo {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.textoLogo {
     font-size: 50px;
 }
