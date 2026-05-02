@@ -4,16 +4,17 @@
 
 }
 
+body{
+    font-family: "Boogaloo", sans-serif;
+}
+
 h1 {
-    height: 100%;
+    font-size: 50px;
+    line-height: 50px;
 }
 
 h2 {
     font-size: 40px;
-}
-
-body{
-    font-family: "Boogaloo", sans-serif;
 }
 
 main {
@@ -35,7 +36,7 @@ header {
 }
 
 nav {
-    padding: 0px 40px;
+    padding: 0px 20px;
 }
 
 ul {
