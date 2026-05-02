@@ -4,29 +4,34 @@
 
 }
 
-body {
-    background-color: lightgreen;
-    color: darkgreen;
-}
-
 h1 {
-    font-size: 50px;
+    height: 100%;
 }
 
 h2 {
     font-size: 40px;
 }
 
-header, footer, h2 {
+body{
     font-family: "Boogaloo", sans-serif;
 }
 
-header {
+main {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+header, footer {
     background-color: darkgreen;
     color: burlywood;
+}
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 
 nav {
@@ -50,6 +55,10 @@ a {
 
 a:hover {
     color: coral;
+}
+
+section {
+    scroll-margin-top: 90px;
 }
 
 .logo {
