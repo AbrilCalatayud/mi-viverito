@@ -48,6 +48,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: coral;
+}
+
 .logo {
     padding: 20px;
     display: flex;
