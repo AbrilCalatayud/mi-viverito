@@ -118,3 +118,12 @@ button:hover {
 .info-producto {
     
 }
+
+.a-button {
+    padding: 12px 28px;
+    background: burlywood;
+    color: darkgreen;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 30px;
+}
