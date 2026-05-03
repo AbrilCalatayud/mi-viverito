@@ -1,4 +1,4 @@
-# Mi Pequeño Viverito
+# Mi Viverito
 
 ## Descripción
 Página para un emprendimiento de venta de plantas para el hogar.
