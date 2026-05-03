@@ -23,20 +23,26 @@ main {
 }
 
 header, footer {
+    padding: 20px;
+    display: flex;
     background-color: darkgreen;
     color: burlywood;
 }
 
 header {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     position: sticky;
     top: 0;
 }
 
-nav {
-    padding: 0px 20px;
+footer {
+    justify-content: space-evenly;
+    align-items: first baseline;
+}
+
+section {
+    scroll-margin-top: 90px;
 }
 
 ul {
@@ -48,22 +54,32 @@ li {
     margin: 5px;
 }
 
-a {
-    color: burlywood;
+a, legend, label, button {
     font-size: 27px;
-    text-decoration: none;
 }
 
-a:hover {
+a, button {
+    color: burlywood;
+}
+
+a:hover, button:hover {
     color: coral;
 }
 
-section {
-    scroll-margin-top: 90px;
+a {
+    text-decoration: none;
 }
 
-.logo {
-    padding: 20px;
+button {
+    font-family: "Boogaloo", sans-serif;
+    background-color: grey;
+}
+
+button:hover {
+    background-color: darkslategrey;
+}
+
+.flex-contenedor {
     display: flex;
     align-items: center;
 }
