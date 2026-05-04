@@ -48,7 +48,7 @@ header {
 
 footer {
     justify-content: space-evenly;
-    align-items: first baseline;
+    align-items: center;
 }
 
 section {
@@ -126,4 +126,10 @@ button:hover {
     font-size: 25px;
     text-decoration: none;
     border-radius: 30px;
+}
+
+.contenedor-botones-formulario {
+    display: flex;
+    justify-content: space-around;
+
 }

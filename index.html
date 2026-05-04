@@ -6,17 +6,17 @@
     <title>Mi Viverito</title>
     <link href="CSS/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
-    <link href="IMG/icono/planta.png" rel="icon">
+    <link href="IMG/iconos/planta.png" rel="icon">
 </head>
 <body>
     <header>
         <div class="contenedor-icono">
-            <img src="IMG/icono/planta.png" alt="Logo Planta" height="50px">
+            <img src="IMG/iconos/planta.png" alt="Logo Planta" height="50px">
             <h1>Mi Viverito</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Inicio</a></li>
                 <li><a href="plantas.html">Plantas</a></li>
                 <li><a href="#resenias">Reseñas</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -24,18 +24,16 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section id="inicio">
             <h2>¡Mirá nuestras plantas!</h2>
             <a href="plantas.html" class="a-button">VER PLANTAS</a>
         </section>
 
         <section id="resenias">
             <h2>Reseñas</h2>
-            <img src="IMG/icono/planta.png" height="500px">
+            <img src="IMG/iconos/planta.png" height="500px">
         </section>
-    </main>
 
-    <footer>
         <section id="contacto">
             <h2>Contacto</h2>
             <form action="URL_de_destino" method="POST">
@@ -57,12 +55,18 @@
                     <textarea id="consulta" name="consulta" rows="10" cols="85"></textarea>
 
                 </fieldset>
-
-                <section>
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpiar</button>
-                </section>
+                <div class="contenedor-botones-formulario">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
             </form>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h2>¡Seguinos en Instagram!</h2>
+                <a href="https://www.instagram.com/mi_viverito_oficial">@mi_viverito_oficial</a>
         </section>
         <section>
             <h2>Ubicación</h2>
