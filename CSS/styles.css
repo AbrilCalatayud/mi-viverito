@@ -108,6 +108,10 @@ button:hover {
     align-items: center;
 }
 
+.imagen-icono {
+    height: 50rem;
+}
+
 .contenedor-productos {
     display: flex;
     justify-content: space-evenly;
@@ -196,4 +200,10 @@ input, textarea {
     height: 300rem;
     margin: 0rem 20rem 20rem;
     border-radius: 30rem;
+}
+
+iframe {
+    width: 500rem;
+    height: 300rem;
+    padding: 20rem;
 }
