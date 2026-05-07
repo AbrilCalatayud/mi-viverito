@@ -1,12 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 1px;
-
 }
 
 html {
     scroll-behavior: smooth;
+    font-size: 10px;
 }
 
 body {
@@ -14,25 +13,25 @@ body {
 }
 
 .f1 {
-    font-size: 50rem;
-    line-height: 50rem;
+    font-size: 6.0rem;
+    line-height: 6.0rem;
 }
 
 .f2 {
-    font-size: 40rem;
-    line-height: 40rem;
-    padding: 20rem;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    padding: 2.0rem;
 }
 
 .f3 {
-    font-size: 25rem;
-    line-height: 25rem;
-    padding: 12rem;
+    font-size: 3.0rem;
+    line-height: 3.0rem;
+    padding: 1.2rem;
 }
 
 .f4 {
-    font-size: 20rem;
-    line-height: 20rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
 }
 
 main {
@@ -44,7 +43,7 @@ main {
 }
 
 header, footer {
-    padding: 20rem;
+    padding: 2.0rem;
     display: flex;
     background-color: darkgreen;
     color: burlywood;
@@ -63,7 +62,7 @@ footer {
 }
 
 section {
-    scroll-margin-top: 90rem;
+    scroll-margin-top: 10.0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,11 +74,11 @@ ul {
 }
 
 li {
-    margin: 5rem;
+    margin: 0.5rem;
 }
 
 a, legend, label, button {
-    font-size: 27rem;
+    font-size: 2.7rem;
 }
 
 a, button {
@@ -109,7 +108,7 @@ button:hover {
 }
 
 .imagen-icono {
-    height: 50rem;
+    height: 6.0rem;
 }
 
 .contenedor-productos {
@@ -126,23 +125,23 @@ button:hover {
 }
 
 .imagen-producto {
-    width: 300rem;
-    height: 300rem;
-    border-radius: 30rem;
+    width: 30.0rem;
+    height: 30.0rem;
+    border-radius: 3.0rem;
 }
 
 .info-producto {
-    margin: 3rem 0rem 15rem;
+    margin: 0.3rem 0rem 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .consultar-button, .ver-plantas-button {
-    padding: 12rem 28rem;
-    font-size: 25rem;
+    padding: 1.2rem 2.8rem;
+    font-size: 2.5rem;
     text-decoration: none;
-    border-radius: 30rem;
+    border-radius: 3.0rem;
 }
 
 .consultar-button{
@@ -158,36 +157,36 @@ button:hover {
 .contenedor-botones-formulario {
     display: flex;
     justify-content: space-around;
-    margin-top: 10rem;
+    margin-top: 1.0rem;
 }
 
 #inicio, #contacto, #plantas {
-    margin-bottom: 20rem;
+    margin-bottom: 2.0rem;
 }
 
 .contenedor-grid {
     display: grid;
-    grid-template-columns: 400rem 400rem 400rem;
+    grid-template-columns: 40.0rem 40.0rem 40.0rem;
 }
 
 .resenia {
-    margin: 10rem;
-    padding: 20rem;
+    margin: 1.0rem;
+    padding: 2.0rem;
     text-align: justify;
     background-color: burlywood;
-    border-radius: 20rem;
+    border-radius: 2.0rem;
 }
 
 form {
     background-color: darkgreen;
     color: burlywood;
-    border-radius: 20rem;
-    padding: 20rem;
+    border-radius: 2.0rem;
+    padding: 2.0rem;
 }
 
 input, textarea {
     font-family: sans-serif;
-    font-size: 20rem;
+    font-size: 2.0rem;
 }
 
 .contenedor-imagenes-inicio {
@@ -196,14 +195,14 @@ input, textarea {
 }
 
 .imagen-inicio {
-    width: 300rem;
-    height: 300rem;
-    margin: 0rem 20rem 20rem;
-    border-radius: 30rem;
+    width: 30.0rem;
+    height: 30.0rem;
+    margin: 0rem 2.0rem 2.0rem;
+    border-radius: 3.0rem;
 }
 
 iframe {
-    width: 500rem;
-    height: 300rem;
-    padding: 20rem;
+    width: 50.0rem;
+    height: 30.0rem;
+    padding: 2.0rem;
 }
