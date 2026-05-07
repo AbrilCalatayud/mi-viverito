@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 1px;
 
 }
 
@@ -13,25 +14,25 @@ body {
 }
 
 .f1 {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 50rem;
+    line-height: 50rem;
 }
 
 .f2 {
-    font-size: 40px;
-    line-height: 40px;
-    padding: 20px;
+    font-size: 40rem;
+    line-height: 40rem;
+    padding: 20rem;
 }
 
 .f3 {
-    font-size: 25px;
-    line-height: 25px;
-    padding: 12px;
+    font-size: 25rem;
+    line-height: 25rem;
+    padding: 12rem;
 }
 
 .f4 {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 20rem;
+    line-height: 20rem;
 }
 
 main {
@@ -43,7 +44,7 @@ main {
 }
 
 header, footer {
-    padding: 20px;
+    padding: 20rem;
     display: flex;
     background-color: darkgreen;
     color: burlywood;
@@ -62,7 +63,7 @@ footer {
 }
 
 section {
-    scroll-margin-top: 90px;
+    scroll-margin-top: 90rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,11 +75,11 @@ ul {
 }
 
 li {
-    margin: 5px;
+    margin: 5rem;
 }
 
 a, legend, label, button {
-    font-size: 27px;
+    font-size: 27rem;
 }
 
 a, button {
@@ -121,23 +122,23 @@ button:hover {
 }
 
 .imagen-producto {
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
+    width: 300rem;
+    height: 300rem;
+    border-radius: 30rem;
 }
 
 .info-producto {
-    margin: 3px 0px 15px;
+    margin: 3rem 0rem 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .consultar-button, .ver-plantas-button {
-    padding: 12px 28px;
-    font-size: 25px;
+    padding: 12rem 28rem;
+    font-size: 25rem;
     text-decoration: none;
-    border-radius: 30px;
+    border-radius: 30rem;
 }
 
 .consultar-button{
@@ -153,35 +154,36 @@ button:hover {
 .contenedor-botones-formulario {
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 10rem;
 }
 
 #inicio, #contacto, #plantas {
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
 }
 
 .contenedor-grid {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: 400rem 400rem 400rem;
 }
 
 .resenia {
-    margin: 10px;
-    padding: 20px;
+    margin: 10rem;
+    padding: 20rem;
     text-align: justify;
     background-color: burlywood;
-    border-radius: 20px;
+    border-radius: 20rem;
 }
 
 form {
     background-color: darkgreen;
     color: burlywood;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 20rem;
+    padding: 20rem;
 }
 
 input, textarea {
     font-family: sans-serif;
+    font-size: 20rem;
 }
 
 .contenedor-imagenes-inicio {
@@ -190,8 +192,8 @@ input, textarea {
 }
 
 .imagen-inicio {
-    width: 300px;
-    height: 300px;
-    margin: 0px 20px 20px;
-    border-radius: 30px;
+    width: 300rem;
+    height: 300rem;
+    margin: 0rem 20rem 20rem;
+    border-radius: 30rem;
 }
