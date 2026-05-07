@@ -8,28 +8,38 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: "Boogaloo", sans-serif;
 }
 
-h1 {
+.f1 {
     font-size: 50px;
     line-height: 50px;
 }
 
-h2 {
+.f2 {
     font-size: 40px;
-    padding: 20px 0px;
+    line-height: 40px;
+    padding: 20px;
 }
 
-h3 {
+.f3 {
     font-size: 25px;
-    padding: 15px 0px;
+    line-height: 25px;
+    padding: 12px;
+}
+
+.f4 {
+    font-size: 20px;
+    line-height: 20px;
 }
 
 main {
     background-color: lightgreen;
     color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header, footer {
@@ -116,20 +126,71 @@ button:hover {
 }
 
 .info-producto {
-    
+    margin: 3px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.a-button {
+.consultar-button, .ver-plantas-button {
     padding: 12px 28px;
-    background: burlywood;
-    color: darkgreen;
     font-size: 25px;
     text-decoration: none;
     border-radius: 30px;
 }
 
+.consultar-button{
+    background: burlywood;
+    color: darkgreen;
+}
+
+.ver-plantas-button {
+    background: darkgreen;
+    color: burlywood;
+}
+
 .contenedor-botones-formulario {
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
+}
 
+#contacto, #plantas {
+    margin-bottom: 20px;
+}
+
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+
+.resenia {
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+
+form {
+    background-color: darkgreen;
+    color: burlywood;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+input, textarea {
+    font-family: sans-serif;
+}
+
+.contenedor-imagenes-inicio {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-inicio {
+    width: 300px;
+    height: 300px;
+    padding: 0px 20px 20px;
+    border-radius: 30px;
 }
