@@ -123,6 +123,7 @@ button:hover {
 .imagen-producto {
     width: 300px;
     height: 300px;
+    border-radius: 30px;
 }
 
 .info-producto {
@@ -155,7 +156,7 @@ button:hover {
     margin-top: 10px;
 }
 
-#contacto, #plantas {
+#inicio, #contacto, #plantas {
     margin-bottom: 20px;
 }
 
@@ -191,6 +192,6 @@ input, textarea {
 .imagen-inicio {
     width: 300px;
     height: 300px;
-    padding: 0px 20px 20px;
+    margin: 0px 20px 20px;
     border-radius: 30px;
 }
