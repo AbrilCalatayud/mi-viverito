@@ -181,6 +181,11 @@ form {
 
 input, textarea {
     font-family: sans-serif;
+    width: 100%;
+}
+
+textarea {
+    height: 20.0rem;
 }
 
 .contenedor-imagenes-inicio {
