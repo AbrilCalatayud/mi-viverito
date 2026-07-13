@@ -90,8 +90,9 @@ a {
 }
 
 button {
-    font-family: "Boogaloo", sans-serif;
+    font-family: "Michroma", sans-serif;
     background-color: lightblue;
+    color: darkblue;
 }
 
 button:hover {
