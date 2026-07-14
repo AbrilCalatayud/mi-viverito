@@ -217,13 +217,9 @@ iframe {
     margin: 2.0rem;
 }
 
-#titulo-carrito {
-    display: flex;
-    justify-content: space-between
-}
-
 #totales-carrito {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
 }
 
