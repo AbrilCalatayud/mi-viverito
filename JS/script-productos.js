@@ -17,7 +17,7 @@ function traerProductos()
         data.forEach(producto => {
             const productoCard = `
                 <div class="card-producto">
-                    <img class="imagen-producto" src="${producto.image}" alt="${producto.title}">
+                    <img src="${producto.image}" alt="${producto.title}">
                     <p class="f4">${producto.title}</p>
                     <p class="f4"> Precio $${producto.price}</p>
                     <button class="boton-agregar" onclick="agregarAlCarrito(${producto.id})">Añadir al carrito</button>

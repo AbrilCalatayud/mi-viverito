@@ -31,7 +31,7 @@ body {
 
 .f4, input, textarea {
     font-size: 2.0rem;
-    line-height: 2.0rem;
+    line-height: normal;
 }
 
 main {
@@ -71,6 +71,7 @@ section {
 ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 li {
@@ -81,7 +82,7 @@ a, button {
     color: lightblue;
 }
 
-a:hover, button:hover {
+a:hover, button:hover, #vaciar-carrito:hover {
     color: coral;
 }
 
@@ -95,7 +96,7 @@ button {
     color: darkblue;
 }
 
-button:hover {
+button:hover, #vaciar-carrito:hover{
     background-color: darkslategrey;
 }
 
@@ -216,14 +217,25 @@ iframe {
     margin: 2.0rem;
 }
 
-.contenedor-carrito {
+#titulo-carrito {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between
 }
 
 #lista-carrito {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2.0rem;
+}
+
+.elemento-carrito {
+    display: grid;
+    grid-template-columns: 10.0rem 50.0rem 15.0rem 15.0rem;
+}
+
+.elemento-carrito img {
+    height: 5.0rem;
+    object-fit: contain;
 }
 
 @media only screen and (max-width: 600px) {
