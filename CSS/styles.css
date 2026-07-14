@@ -222,6 +222,11 @@ iframe {
     justify-content: space-between
 }
 
+#totales-carrito {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #lista-carrito {
     display: flex;
     flex-direction: column-reverse;

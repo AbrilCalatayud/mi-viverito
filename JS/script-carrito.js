@@ -1,5 +1,8 @@
 function actualizarCarrito()
 {
+    let cantidadTotalTodos = 0;
+    let precioTotalTodos = 0;
+
     var carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
     var listaCarrito = document.getElementById('lista-carrito');
@@ -7,6 +10,10 @@ function actualizarCarrito()
     listaCarrito.innerHTML = '';
 
     carrito.forEach(producto => {
+
+        cantidadTotalTodos += producto.cantidad;
+        precioTotalTodos += producto.cantidad * producto.price;
+
         const li = `
             <li class="elemento-carrito">
                 <img src="${producto.image}" alt="${producto.title}">
@@ -19,6 +26,10 @@ function actualizarCarrito()
             `;
         listaCarrito.innerHTML += li;
     })
+
+    document.getElementById("cantidad-productos-todos").textContent = "Cantidad de productos: " + cantidadTotalTodos;
+
+    document.getElementById("precio-total-todos").textContent = "Total: $" + precioTotalTodos;
 }
 
 actualizarCarrito();
