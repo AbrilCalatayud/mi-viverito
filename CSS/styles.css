@@ -82,7 +82,7 @@ a {
     color: lightblue;
 }
 
-a:hover, button:hover {
+a:hover, a:focus, button:hover, button:focus {
     color: coral;
 }
 
@@ -90,11 +90,12 @@ a {
     text-decoration: none;
 }
 
-button {
+button, .link-estilo-boton {
     font-family: "Michroma", sans-serif;
     background: darkblue;
     color: lightblue;
     border-radius: 10.0rem;
+    border: 0;
 }
 
 .contenedor-icono {
@@ -140,6 +141,11 @@ button {
 .contenedor-botones-formulario button {
     background: lightblue;
     color: darkblue;
+}
+
+.contenedor-botones-formulario button:hover, .contenedor-botones-formulario button:focus {
+    background-color: gray;
+    color: coral;
 }
 
 #inicio, #contacto, #productos {
@@ -213,6 +219,7 @@ iframe {
     align-self: center;
     justify-self: center;
     align-items: center;
+    gap: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
