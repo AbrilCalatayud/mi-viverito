@@ -18,12 +18,12 @@ function actualizarCarrito()
         const li = `
             <li class="elemento-carrito">
                 <img src="${producto.image}" alt="${producto.title}">
-                <p class="f4">${producto.title}</p>
-                <p class="f4"> Precio Unidad $${producto.price}</p>
-                <p class="f4"> Precio Total $${precio_total}</p>
+                <h4>${producto.title}</h4>
+                <h4> Precio Unidad $${producto.price}</h4>
+                <h4> Precio Total $${precio_total}</h4>
                 <div class="contendor-cantidad">
                     <button onclick="disminuirCantidad(${producto.id})"> - </button>
-                    <p class="f4">${producto.cantidad}</p>
+                    <h4>${producto.cantidad}</h4>
                     <button onclick="aumentarCantidad(${producto.id})"> + </button>
                     <button onclick="eliminarProducto(${producto.id})">Eliminar</button>
                 </div>

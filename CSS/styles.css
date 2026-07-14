@@ -10,28 +10,32 @@ html {
 
 body {
     font-family: "Michroma", sans-serif;
+    height: 100%;
 }
 
-.f1 {
-    font-size: 6.0rem;
-    line-height: 6.0rem;
+#texto-icono {
+    font-size: 3rem;
+    font-weight: bold;
 }
 
-.f2 {
-    font-size: 4.5rem;
-    line-height: 4.5rem;
-    padding: 2.0rem;
+h1 {
+    font-size: 3rem;
 }
 
-.f3, a, legend, label, button {
+h2 {
     font-size: 2.5rem;
-    line-height: 2.5rem;
-    padding: 1.2rem;
 }
 
-.f4, input, textarea {
-    font-size: 2.0rem;
-    line-height: normal;
+h3, a, legend, label, button {
+    font-size: 2rem;
+}
+
+h4, input, textarea{
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
 }
 
 main {
@@ -40,6 +44,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 
 header, footer {
@@ -96,11 +101,13 @@ button, .link-estilo-boton {
     color: lightblue;
     border-radius: 10.0rem;
     border: 0;
+    padding: 1rem;
 }
 
 .contenedor-icono {
     display: flex;
     align-items: center;
+    gap: 2.0rem;
 }
 
 .imagen-icono {
@@ -196,6 +203,7 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 2rem;
 }
 
 #lista-carrito {
@@ -226,29 +234,4 @@ iframe {
    html {
        font-size: 3px; /* Una sola columna en pantallas pequeñas */
    }
-
-   #contenedor-resenias {
-        grid-template-columns: 130.0rem;
-    }
-
-    .f1 {
-        font-size: 8.0rem;
-        line-height: 8.0rem;
-    }
-
-    .f2 {
-        font-size: 8.0rem;
-        line-height: 8.0rem;
-        padding: 2.0rem;
-    }
-
-    .f3, a, legend, label, button, .consultar-button, .ver-productos-button {
-        font-size: 7.0rem;
-        line-height: 7.0rem;
-    }
-
-    .f4, input, textarea {
-        font-size: 6.5rem;
-        line-height: 6.5rem;
-    }
 }

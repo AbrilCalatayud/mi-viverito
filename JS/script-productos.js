@@ -18,8 +18,8 @@ function traerProductos()
             const productoCard = `
                 <div class="card-producto">
                     <img src="${producto.image}" alt="${producto.title}">
-                    <p class="f4">${producto.title}</p>
-                    <p class="f4"> Precio $${producto.price}</p>
+                    <h4>${producto.title}</h4>
+                    <h4> Precio $${producto.price}</h4>
                     <button class="boton-agregar" onclick="agregarAlCarrito(${producto.id})">Añadir al carrito</button>
                 </div>
                 `;

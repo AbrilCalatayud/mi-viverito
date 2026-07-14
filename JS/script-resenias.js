@@ -14,9 +14,9 @@ function agregarResenias()
     resenias.forEach(resenia => {
         const reseniaCard = `
             <div class="resenia-card">
-                <p class="f4">${resenia.opinion}</p>
-                <p>${resenia.producto}</p>
-                <p class="f4"> - ${resenia.cliente}</p>
+                <h4>${resenia.opinion}</h4>
+                <h5>${resenia.producto}</h5>
+                <h4> - ${resenia.cliente}</h4>
             </div>
             `;
         contenedor.innerHTML += reseniaCard;
