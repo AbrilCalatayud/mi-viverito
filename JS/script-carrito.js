@@ -19,4 +19,4 @@ function actualizarCarrito()
     })
 }
 
-document.addEventListener("DOMContentLoaded", actualizarCarrito);
+actualizarCarrito();
