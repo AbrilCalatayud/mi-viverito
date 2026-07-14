@@ -122,7 +122,7 @@ button, .link-estilo-boton {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: stretch;
 }
 
 .card-producto {
@@ -134,12 +134,12 @@ button, .link-estilo-boton {
 }
 
 .card-producto img {
-    width: 20.0rem;
+    height: 15.0rem;
     object-fit: contain;
 }
 
-.card-producto p {
-    width: 100%;
+.card-producto-info {
+    flex: 1;
     margin: 2.0rem;
 }
 
@@ -168,7 +168,7 @@ button, .link-estilo-boton {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.resenia-card {
+.resenia-card, .card-producto {
     margin: 1.0rem;
     padding: 2.0rem;
     text-align: justify;
