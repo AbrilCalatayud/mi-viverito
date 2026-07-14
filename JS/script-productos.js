@@ -42,11 +42,13 @@ function agregarAlCarrito(idProducto)
     if (existente != undefined) 
     {
         existente.cantidad++;
+        existente.precio_total += existente.price;
     } else
     {
         carrito.push({
             ...producto, //copio los datos del producto, pero sin modificar el original. Los "..." se llaman spread operator
-            cantidad: 1 //le sumo la cantidad
+            cantidad: 1, //le sumo la cantidad
+            precio_total: producto.price
         });
     }
 

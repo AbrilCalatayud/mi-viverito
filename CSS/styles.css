@@ -230,7 +230,7 @@ iframe {
 
 .elemento-carrito {
     display: grid;
-    grid-template-columns: 10.0rem 45.0rem 10.0rem 15.0rem 15.0rem;
+    grid-template-columns: 10.0rem 35.0rem 10.0rem 10.0rem 10.0rem 15.0rem;
 }
 
 .elemento-carrito img {
