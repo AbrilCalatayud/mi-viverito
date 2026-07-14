@@ -1,0 +1,21 @@
+function actualizarCarrito()
+{
+    var carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+
+    var listaCarrito = document.getElementById('lista-carrito');
+
+    listaCarrito.innerHTML = '';
+
+    carrito.forEach(producto => {
+        const li = `
+            <li class="elemento-carrito">
+                <p class="f4">${producto.title}</p>
+                <p class="f4"> Precio $${producto.price}</p>
+                <button class="boton-sacar-carrito" onclick="sacarDelCarrito(${producto.id})">Sacar del carrito</button>
+            </li>
+            `;
+        listaCarrito.innerHTML += li;
+    })
+}
+
+document.addEventListener("DOMContentLoaded", actualizarCarrito);

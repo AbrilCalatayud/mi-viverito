@@ -207,7 +207,7 @@ iframe {
     padding: 2.0rem;
 }
 
-#vaciar-carrito, .boton-agregar {
+#vaciar-carrito, .boton-agregar, .boton-sacar-carrito {
     color: lightblue;
     background-color: darkblue;
 }
@@ -218,6 +218,12 @@ iframe {
 
 .contenedor-carrito {
     display: flex;
+    flex-direction: row;
+}
+
+#lista-carrito {
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (max-width: 600px) {
