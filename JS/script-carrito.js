@@ -32,4 +32,10 @@ function actualizarCarrito()
     document.getElementById("precio-total-todos").textContent = "Total: $" + precioTotalTodos;
 }
 
+function vaciarCarrito()
+{
+    localStorage.removeItem("carrito");
+    actualizarCarrito();
+}
+
 actualizarCarrito();
