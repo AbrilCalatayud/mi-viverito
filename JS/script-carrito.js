@@ -19,10 +19,14 @@ function actualizarCarrito()
             <li class="elemento-carrito">
                 <img src="${producto.image}" alt="${producto.title}">
                 <p class="f4">${producto.title}</p>
-                <p class="f4">Cant.:${producto.cantidad}</p>
                 <p class="f4"> Precio Unidad $${producto.price}</p>
                 <p class="f4"> Precio Total $${precio_total}</p>
-                <button class="boton-sacar-carrito" onclick="sacarDelCarrito(${producto.id})">Sacar del carrito</button>
+                <div class="contendor-cantidad">
+                    <button onclick="disminuirCantidad(${producto.id})"> - </button>
+                    <span class="f4">${producto.cantidad}</span>
+                    <button onclick="aumentarCantidad(${producto.id})"> + </button>
+                    <button onclick="eliminarProducto(${producto.id})">Eliminar</button>
+                </div>
             </li>
             `;
         listaCarrito.innerHTML += li;

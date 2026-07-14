@@ -23,7 +23,7 @@ body {
     padding: 2.0rem;
 }
 
-.f3, a, legend, label, button, .consultar-button, .ver-productos-button {
+.f3, a, legend, label, button {
     font-size: 2.5rem;
     line-height: 2.5rem;
     padding: 1.2rem;
@@ -78,7 +78,7 @@ li {
     margin: 0.5rem;
 }
 
-a, button {
+a {
     color: lightblue;
 }
 
@@ -92,12 +92,9 @@ a {
 
 button {
     font-family: "Michroma", sans-serif;
-    background-color: lightblue;
-    color: darkblue;
-}
-
-button:hover, #vaciar-carrito:hover{
-    background-color: darkslategrey;
+    background: darkblue;
+    color: lightblue;
+    border-radius: 10.0rem;
 }
 
 .contenedor-icono {
@@ -134,26 +131,15 @@ button:hover, #vaciar-carrito:hover{
     margin: 2.0rem;
 }
 
-.consultar-button, .ver-productos-button {
-    padding: 1.2rem 2.8rem;
-    text-decoration: none;
-    border-radius: 3.0rem;
-}
-
-.consultar-button{
-    background: darkblue;
-    color: lightblue;
-}
-
-.ver-productos-button {
-    background: darkblue;
-    color: lightblue;
-}
-
 .contenedor-botones-formulario {
     display: flex;
     justify-content: space-around;
     margin-top: 1.0rem;
+}
+
+.contenedor-botones-formulario button {
+    background: lightblue;
+    color: darkblue;
 }
 
 #inicio, #contacto, #productos {
@@ -190,27 +176,10 @@ textarea {
     height: 20.0rem;
 }
 
-.contenedor-imagenes-inicio {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.imagen-inicio {
-    width: 30.0rem;
-    height: 30.0rem;
-    margin: 0rem 2.0rem 2.0rem;
-    border-radius: 3.0rem;
-}
-
 iframe {
     width: 50.0rem;
     height: 30.0rem;
     padding: 2.0rem;
-}
-
-#vaciar-carrito, .boton-agregar, .boton-sacar-carrito {
-    color: lightblue;
-    background-color: darkblue;
 }
 
 #vaciar-carrito {
@@ -231,12 +200,19 @@ iframe {
 
 .elemento-carrito {
     display: grid;
-    grid-template-columns: 10.0rem 35.0rem 10.0rem 10.0rem 10.0rem 15.0rem;
+    grid-template-columns: 10.0rem 35.0rem 10.0rem 10.0rem 25.0rem;
 }
 
 .elemento-carrito img {
     height: 5.0rem;
     object-fit: contain;
+}
+
+.contendor-cantidad {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 600px) {
