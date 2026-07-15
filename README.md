@@ -1,7 +1,7 @@
-# Mi Viverito
+# ElectroMundo
 
 ## Descripción
-Página para UN e-commerce de productos electrónicos.
+Página para un e-commerce de productos electrónicos.
 
 ## Comienzos
 Esta página comenzó como proyecto para el curso de Front - End JS de Talento Tech.
