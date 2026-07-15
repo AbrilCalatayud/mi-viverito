@@ -93,6 +93,7 @@ a {
 
 a:hover, a:focus, button:hover, button:focus {
     color: coral;
+    cursor: pointer;
 }
 
 a {
