@@ -11,5 +11,5 @@ Esta página comenzó como proyecto para el curso de Front - End JS de Talento T
 - CSS
 - JavaScript
 
-##APIs
+## APIs
 - Fake Store API
